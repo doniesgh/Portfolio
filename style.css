@@ -201,6 +201,20 @@ span{
     position: relative;
 }
 
+/* Hero */
+.hero {
+    width: 100%;
+  }
+  
+  .hero .row {
+    display: flex;
+    align-items: center;
+  margin-top: 60px;
+    width: 100%;
+    padding: 0 60px;
+    gap: 30px;
+    justify-content: space-between;
+  }
 .typing-text span::before{
     content: "software Developer";
     color: #c45c65;
